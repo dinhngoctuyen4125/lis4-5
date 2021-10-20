@@ -69,7 +69,7 @@ signed main(){
   <li> Với bài này, ta chỉ cần <b>sinh hoán vị thứ tự</b> của các màu (do chỉ có tối đa 4 màu nên đpt hoán vị tối đa là 4!=24), sau đó với mỗi thứ tự các màu, ta tìm độ ưu tiên của các lá bài, lá nào sẽ xếp lên đầu,... Như vậy với mỗi trường hợp sinh ra, ta chỉ cần tìm <i>lis</i> của <i>n*c</i> lá bài đó, thì số lần chuyển lá bài sẽ là <i> n - lis </i>. Tìm ans là min của các trường hợp thôi :3 
 </ul>
 
-# Code mẫu nè
+# Code mẫu nè:
 ```cpp
 #include <bits/stdc++.h>
 #define int long long
